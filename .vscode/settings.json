@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "*.chapt": "chapter",
+        "*.log": "log",
+        "*.txt": "tale",
+        "*.toml": "toml",
+        "in.h": "c",
+        "stat.h": "c",
+        "types.h": "c"
+    }
+}

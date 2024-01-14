@@ -26,6 +26,11 @@
 #include <sys/wait.h>
 #include <stdlib.h>
 
+#include <sys/stat.h>
+typedef __u_short u_short;
+# define S_IFMT		__S_IFMT
+# define S_IFDIR	__S_IFDIR
+
 #define ISspace(x) isspace((int)(x))
 // 函数说明：检查参数c是否为空格字符，
 // 也就是判断是否为空格(' ')、定位字符(' \t ')、CR(' \r ')、换行(' \n ')、垂直定位字符(' \v ')或翻页(' \f ')的情况。
