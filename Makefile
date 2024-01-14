@@ -1,10 +1,10 @@
 all: httpd client
 
 httpd: httpd.c
-	gcc -W -Wall -o httpd httpd.c -lpthread
+	gcc -g -W -Wall -o httpd httpd.c -lpthread
 
 client: simpleclient.c
-	gcc -W -Wall -o $@ $<
+	gcc -g -W -Wall -o client simpleclient.c
 
 clean:
-	rm httpd
+	rm httpd client

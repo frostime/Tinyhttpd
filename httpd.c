@@ -584,7 +584,7 @@ int main(void)
     // 启动server socket
     server_sock = startup(&port);
 
-    printf("httpd running on port %d\n", port);
+    printf("Start: httpd running on port %d\n", port);
 
     while (1)
     {
